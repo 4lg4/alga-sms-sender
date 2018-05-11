@@ -1,6 +1,6 @@
 {
   "from": "AlgaSMSSend",
-  "token": "02f00e4b-489c-4382-b3d7-a3dcd50ff5c9",
+  "token": "_put here your server token_",
   "providers": {
     "ClickSend": {
       "username": "",

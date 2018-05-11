@@ -3,9 +3,8 @@
  */
 
 import aap, {reject} from 'alga-async-process';
-import config from './config.json';
 
-export default async ({provider, from, to, message})=> {
+export default async ({config, provider, from, to, message})=> {
   if (!provider || !to || !message) {
     return reject('provider, to (phone number) and message are required');
   }
